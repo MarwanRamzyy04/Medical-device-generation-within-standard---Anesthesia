@@ -2,7 +2,6 @@
 
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue?style=for-the-badge&logo=python)](https://www.python.org/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit)](https://streamlit.io/)
-[![Status](https://img.shields.io/badge/Status-Prototype-orange?style=for-the-badge)]()
 
 > A real-time medical device simulation that monitors gas delivery safety, calculates FiO₂ levels, and applies patient-specific clinical logic to prevent hypoxic mixtures during anesthesia.
 
