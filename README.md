@@ -8,7 +8,6 @@
 ---
 
 ## 📸 Interface Preview
-*(Upload a screenshot of your app here and replace the link below, or delete this line if no image is available)*
 <img width="624" height="314" alt="image" src="https://github.com/user-attachments/assets/fb099dd6-0bba-47d9-9b17-bec8efdb9f3f" />
 
 ---
