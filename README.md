@@ -1,4 +1,4 @@
-# 🏥 Anesthesia Workstation Safety Monitor
+# Anesthesia Workstation Safety Monitor
 
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue?style=for-the-badge&logo=python)](https://www.python.org/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit)](https://streamlit.io/)
@@ -9,7 +9,7 @@
 
 ## 📸 Interface Preview
 *(Upload a screenshot of your app here and replace the link below, or delete this line if no image is available)*
-![App Screenshot](screenshot.png)
+<img width="624" height="314" alt="image" src="https://github.com/user-attachments/assets/fb099dd6-0bba-47d9-9b17-bec8efdb9f3f" />
 
 ---
 
