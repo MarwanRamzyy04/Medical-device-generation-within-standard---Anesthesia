@@ -26,24 +26,6 @@ The application calculates the **Fraction of Inspired Oxygen (FiO₂)** in real-
 
 ---
 
-## ⚙️ Technical Logic & Standards
-
-This software implements logic derived from medical standards for Anesthetic Workstations.
-
-### 1. The Hypoxic Guard (ISO 80601-2-13)
-The system ensures the patient never receives a hypoxic mixture (insufficient oxygen). The FiO₂ is calculated using the weighted average of oxygen sources:
-
-$$FiO_2 = \frac{Flow_{O2} + (Flow_{Air} \times 0.21)}{Total Flow} \times 100$$
-
-* **CRITICAL FAIL:** If $FiO_2 < 25\%$ (Standard limit).
-* **CLINICAL WARNING:** If $FiO_2 < 30\%$ for elderly patients or ASA III+ (High-risk logic).
-
-### 2. Low Flow Anesthesia
-To prevent rebreathing of CO₂ in semi-closed circuits without adequate scrubbing, the system triggers a warning if:
-* $Total Flow < 0.5 \text{ L/min}$
-
----
-
 ## 🚀 Installation & Usage
 
 To run this application locally, follow these steps:
@@ -81,5 +63,4 @@ To run this application locally, follow these steps:
 anesthesia-safety-monitor/
 ├── app.py                # Main application logic (Streamlit)
 ├── requirements.txt      # Python dependencies
-├── README.md             # Project documentation
-└── screenshot.png        # Application preview image
+└── README.md             # Project documentation
