@@ -60,7 +60,7 @@ To run this application locally, follow these steps:
 ## 📂 File Structure
 
 ```text
-anesthesia-safety-monitor/
+Project/
 ├── app.py                # Main application logic (Streamlit)
-├── requirements.txt      # Python dependencies
-└── README.md             # Project documentation
+└──  requirements.txt      # Python dependencies
+README.md             # Project documentation
